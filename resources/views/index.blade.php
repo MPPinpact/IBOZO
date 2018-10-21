@@ -22,7 +22,7 @@
 <!-- Navigation -->
 <nav class="navbar navbar-expand-lg bg-secondary fixed-top " id="mainNav">
     <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">Instrumental Bozo</a>
+        <a class="navbar-brand js-scroll-trigger" href="#page-top"><img class="img-fluid" src="img/BOZO1.png" alt="" style="height: 100px;"></a>
         <button class="navbar-toggler navbar-toggler-right text-uppercase bg-primary rounded" type="button"
                 data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
                 aria-expanded="false" aria-label="Toggle navigation">
