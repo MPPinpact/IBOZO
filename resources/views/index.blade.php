@@ -35,9 +35,6 @@
                     <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#servicios">Servicios</a>
                 </li>
                 <li class="nav-item mx-0 mx-lg-1">
-                    <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#productos">Productos</a>
-                </li>
-                <li class="nav-item mx-0 mx-lg-1">
                     <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#nosotros">Nosotros</a>
                 </li>
                 <li class="nav-item mx-0 mx-lg-1">
@@ -48,15 +45,43 @@
     </div>
 </nav>
 
-<!-- Header -->
-<header class="masthead bg-primary text-center">
-    <div class="container">
-        <img class="img-fluid mb-5 d-block mx-auto" src="img/taller.jpg" alt="">
-        <h2 class="mb-0">Taller de Reparación y Confección de Instrumentales Médicos</h2>
-    </div>
-</header>
+<!-- Carrousel -->
+<div class="container">
+    <section id="carrousel">
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            </ol>
 
-<!-- Portfolio Grid Section -->
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                    <img src="img/producto1.png" class="img-fluid center-block" alt="">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/producto2.png" class="img-fluid center-block" alt="">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/producto3.png" class="img-fluid center-block" alt="">
+                </div>
+            </div>
+
+            <!-- Controls -->
+            <a class="carousel-control-prev" href="#carousel-example-generic" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carousel-example-generic" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </section>
+</div>
+
 <section class="portfolio" id="servicios">
     <div class="container">
         <h2 class="text-center text-secondary mb-0">Servicios</h2>
@@ -90,65 +115,6 @@
                         </div>
                     </div>
                     <img class="img-fluid" src="img/instrumento3.png" alt="">
-                </a>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="portfolio" id="productos">
-    <div class="container">
-        <h2 class="text-center text-secondary mb-0">Productos</h2>
-        <hr class="mb-5">
-        <div class="row">
-            <div class="col-md-6 col-lg-4">
-                <a class="portfolio-item d-block mx-auto" href="#producto-modal-1">
-                    <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                        <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                            <i class="fas fa-search-plus fa-3x"></i>
-                        </div>
-                    </div>
-                    <img class="img-fluid" src="img/producto1.png" alt="">
-                </a>
-            </div>
-            <div class="col-md-6 col-lg-4">
-                <a class="portfolio-item d-block mx-auto" href="#producto-modal-2">
-                    <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                        <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                            <i class="fas fa-search-plus fa-3x"></i>
-                        </div>
-                    </div>
-                    <img class="img-fluid" src="img/producto2.png" alt="">
-                </a>
-            </div>
-            <div class="col-md-6 col-lg-4">
-                <a class="portfolio-item d-block mx-auto" href="#producto-modal-3">
-                    <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                        <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                            <i class="fas fa-search-plus fa-3x"></i>
-                        </div>
-                    </div>
-                    <img class="img-fluid" src="img/producto3.png" alt="">
-                </a>
-            </div>
-            <div class="col-md-6 col-lg-4">
-                <a class="portfolio-item d-block mx-auto" href="#producto-modal-4">
-                    <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                        <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                            <i class="fas fa-search-plus fa-3x"></i>
-                        </div>
-                    </div>
-                    <img class="img-fluid" src="img/producto4.png" alt="">
-                </a>
-            </div>
-            <div class="col-md-6 col-lg-4">
-                <a class="portfolio-item d-block mx-auto" href="#producto-modal-5">
-                    <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                        <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                            <i class="fas fa-search-plus fa-3x"></i>
-                        </div>
-                    </div>
-                    <img class="img-fluid" src="img/producto5.png" alt="">
                 </a>
             </div>
         </div>
@@ -324,118 +290,6 @@
                     <h2 class="text-secondary text-uppercase mb-0">Nombre Servicio</h2>
                     <hr class="star-dark mb-5">
                     <img class="img-fluid mb-5" src="img/instrumento3.png" alt="">
-                    <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                    <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
-                        <i class="fa fa-close"></i>
-                        Cerrar</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Productos Modals -->
-
-<!-- Productos Modal 1 -->
-<div class="portfolio-modal mfp-hide" id="producto-modal-1">
-    <div class="portfolio-modal-dialog bg-white">
-        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
-            <i class="fa fa-3x fa-times"></i>
-        </a>
-        <div class="container text-center">
-            <div class="row">
-                <div class="col-lg-8 mx-auto">
-                    <h2 class="text-secondary text-uppercase mb-0">Nombre Producto</h2>
-                    <hr class="star-dark mb-5">
-                    <img class="img-fluid mb-5" src="img/producto1.png" alt="">
-                    <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                    <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
-                        <i class="fa fa-close"></i>
-                        Cerrar</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Productos Modal 2 -->
-<div class="portfolio-modal mfp-hide" id="producto-modal-2">
-    <div class="portfolio-modal-dialog bg-white">
-        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
-            <i class="fa fa-3x fa-times"></i>
-        </a>
-        <div class="container text-center">
-            <div class="row">
-                <div class="col-lg-8 mx-auto">
-                    <h2 class="text-secondary text-uppercase mb-0">Nombre Producto</h2>
-                    <hr class="star-dark mb-5">
-                    <img class="img-fluid mb-5" src="img/producto2.png" alt="">
-                    <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                    <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
-                        <i class="fa fa-close"></i>
-                        Cerrar</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Productos Modal 3 -->
-<div class="portfolio-modal mfp-hide" id="producto-modal-3">
-    <div class="portfolio-modal-dialog bg-white">
-        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
-            <i class="fa fa-3x fa-times"></i>
-        </a>
-        <div class="container text-center">
-            <div class="row">
-                <div class="col-lg-8 mx-auto">
-                    <h2 class="text-secondary text-uppercase mb-0">Nombre Producto</h2>
-                    <hr class="star-dark mb-5">
-                    <img class="img-fluid mb-5" src="img/producto3.png" alt="">
-                    <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                    <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
-                        <i class="fa fa-close"></i>
-                        Cerrar</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Productos Modal 4 -->
-<div class="portfolio-modal mfp-hide" id="producto-modal-4">
-    <div class="portfolio-modal-dialog bg-white">
-        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
-            <i class="fa fa-3x fa-times"></i>
-        </a>
-        <div class="container text-center">
-            <div class="row">
-                <div class="col-lg-8 mx-auto">
-                    <h2 class="text-secondary text-uppercase mb-0">Nombre Producto</h2>
-                    <hr class="star-dark mb-5">
-                    <img class="img-fluid mb-5" src="img/producto4.png" alt="">
-                    <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                    <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
-                        <i class="fa fa-close"></i>
-                        Cerrar</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Productos Modal 5 -->
-<div class="portfolio-modal mfp-hide" id="producto-modal-5">
-    <div class="portfolio-modal-dialog bg-white">
-        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
-            <i class="fa fa-3x fa-times"></i>
-        </a>
-        <div class="container text-center">
-            <div class="row">
-                <div class="col-lg-8 mx-auto">
-                    <h2 class="text-secondary text-uppercase mb-0">Nombre Producto</h2>
-                    <hr class="star-dark mb-5">
-                    <img class="img-fluid mb-5" src="img/producto5.png" alt="">
                     <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
                     <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
                         <i class="fa fa-close"></i>
