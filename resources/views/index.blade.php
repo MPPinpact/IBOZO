@@ -49,8 +49,9 @@
             </div>
         </nav>
 
+        <!-- Header -->
         <!-- Carrousel -->
-        <section class="portfolio" id="carrousel">
+        <header class="masthead bg-primary text-center">
             <div class="container">
                 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
                     <!-- Indicators -->
@@ -88,7 +89,7 @@
                     </a>
                 </div>
             </div>
-        </section>
+        </header>
 
         <section class="portfolio" id="servicios">
             <div class="container">
