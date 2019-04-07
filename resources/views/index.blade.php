@@ -32,7 +32,7 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item mx-0 mx-lg-1">
-                    <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#nuestroclientes">Nuestros Clientes</a>
+                    <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#nuestrosclientes">Nuestros Clientes</a>
                 </li>
                 <li class="nav-item mx-0 mx-lg-1">
                     <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#nosotros">Nosotros</a>
@@ -88,34 +88,10 @@
         <hr class="mb-5">
         <div class="row">
             <div class="col-md-6 col-lg-4">
-                <a class="portfolio-item d-block mx-auto" href="#instrumento-modal-1">
-                    <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                        <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                            <i class="fas fa-search-plus fa-3x"></i>
-                        </div>
-                    </div>
-                    <img class="img-fluid" src="img/instrumento1.png" alt="">
-                </a>
             </div>
             <div class="col-md-6 col-lg-4">
-                <a class="portfolio-item d-block mx-auto" href="#instrumento-modal-2">
-                    <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                        <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                            <i class="fas fa-search-plus fa-3x"></i>
-                        </div>
-                    </div>
-                    <img class="img-fluid" src="img/instrumento2.png" alt="">
-                </a>
             </div>
             <div class="col-md-6 col-lg-4">
-                <a class="portfolio-item d-block mx-auto" href="#instrumento-modal-3">
-                    <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                        <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                            <i class="fas fa-search-plus fa-3x"></i>
-                        </div>
-                    </div>
-                    <img class="img-fluid" src="img/instrumento3.png" alt="">
-                </a>
             </div>
         </div>
     </div>
@@ -226,74 +202,6 @@
     <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top">
         <i class="fa fa-chevron-up"></i>
     </a>
-</div>
-
-<!-- Instrumentos Modals -->
-
-<!-- Instrumentos Modal 1 -->
-<div class="portfolio-modal mfp-hide" id="instrumento-modal-1">
-    <div class="portfolio-modal-dialog bg-white">
-        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
-            <i class="fa fa-3x fa-times"></i>
-        </a>
-        <div class="container text-center">
-            <div class="row">
-                <div class="col-lg-8 mx-auto">
-                    <h2 class="text-secondary text-uppercase mb-0">Nombre Servicio</h2>
-                    <hr class="star-dark mb-5">
-                    <img class="img-fluid mb-5" src="img/instrumento1.png" alt="">
-                    <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                    <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
-                        <i class="fa fa-close"></i>
-                        Cerrar</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Instrumentos Modal 2 -->
-<div class="portfolio-modal mfp-hide" id="instrumento-modal-2">
-    <div class="portfolio-modal-dialog bg-white">
-        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
-            <i class="fa fa-3x fa-times"></i>
-        </a>
-        <div class="container text-center">
-            <div class="row">
-                <div class="col-lg-8 mx-auto">
-                    <h2 class="text-secondary text-uppercase mb-0">Nombre Servicio</h2>
-                    <hr class="star-dark mb-5">
-                    <img class="img-fluid mb-5" src="img/instrumento2.png" alt="">
-                    <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                    <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
-                        <i class="fa fa-close"></i>
-                        Cerrar</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Instrumentos Modal 3 -->
-<div class="portfolio-modal mfp-hide" id="instrumento-modal-3">
-    <div class="portfolio-modal-dialog bg-white">
-        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
-            <i class="fa fa-3x fa-times"></i>
-        </a>
-        <div class="container text-center">
-            <div class="row">
-                <div class="col-lg-8 mx-auto">
-                    <h2 class="text-secondary text-uppercase mb-0">Nombre Servicio</h2>
-                    <hr class="star-dark mb-5">
-                    <img class="img-fluid mb-5" src="img/instrumento3.png" alt="">
-                    <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                    <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
-                        <i class="fa fa-close"></i>
-                        Cerrar</a>
-                </div>
-            </div>
-        </div>
-    </div>
 </div>
 
 <!-- Bootstrap core JavaScript -->
